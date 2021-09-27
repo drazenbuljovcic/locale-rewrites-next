@@ -5,15 +5,15 @@ module.exports = {
     defaultLocale: "en-US",
     localeDetection: false,
   },
-  async rewrites() {
-    return [
-      {
-        source: "/es-US/:path*",
-        destination: "/en-US/:path*",
-        locale: false,
-      },
-    ];
-  },
+  // async rewrites() {
+  //   return [
+  //     {
+  //       source: "/es-US/:path*",
+  //       destination: "/en-US/:path*",
+  //       locale: false,
+  //     },
+  //   ];
+  // },
   async redirects() {
     return [
       {
